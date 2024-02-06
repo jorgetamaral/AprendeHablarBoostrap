@@ -38,5 +38,16 @@
   height: 200px;
 }
 
+/* Estilo para los hover de los links de la Navegación */
+.my-link:hover {
+    color: #b0b6c0 !important; /* Cambia esto al color que prefieras */
+}
+
+
+
+
+
+
+
 
 </style>
