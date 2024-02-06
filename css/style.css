@@ -43,11 +43,10 @@
     color: #b0b6c0 !important; /* Cambia esto al color que prefieras */
 }
 
-
-
-
-
-
-
+/* Margen chapucero para que la seccion introduccion 
+no se solape con el navBar */
+#introduccion {
+    padding-top: 150px;
+}
 
 </style>
