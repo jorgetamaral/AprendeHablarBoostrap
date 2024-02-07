@@ -1,11 +1,23 @@
 
-$success: #1b3e90; // Color utilizado para en navbar y footes
+$success: #cc213dd8;// Color utilizado para en navbar y footes
 
-$primary: #cc213dd8; //Color utilizado para los botones 
+$primary: #1b3e90; //Color utilizado para los botones 
 
 $secondary:#39333A; //Color mayoritariamente utilizado para el texto
 
 $info: #FFFFFF; //Color utilizado para el texto que se encuentra sobre colores
+
+
+nav img {
+    background-color: white;
+    border-radius: 10px;
+}
+nav span {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
 
 
 @import "scss/bootstrap.scss";

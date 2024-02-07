@@ -18,6 +18,7 @@
             <div class="container">
                 <a class="navbar-brand " href="index.html">
                     <img src="assets/svg/logo_original.svg" alt="">
+                    <span>Aprende a Hablar</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -144,105 +145,69 @@
             </div>
         </div>
     </section>
-
-    <div class="container-fluid mt-5" style="max-width: 500px;">
-        <form action="confirmacion.html">
-            <!-- <legend class="text-center">¡Contacta conmigo!</legend> -->
-            <h1 class="mb-2 text-center">¡Contacta conmigo!</h1>
-            <div class="mb-1">
-                <label for="nombre" class="col-form-label">Nombre <span class="text-danger">*</span><sub>
-                        (Obligatorio)</sub></label>
-                <input type="text" class="form-control input-style" id="nombre" placeholder="Introduce tu nombre"
-                    required>
-            </div>
-
-            <div class="mb-1">
-                <label for="apellidos" class="col-form-label">Apellidos</label>
-                <input type="text" class="form-control input-style" id="apellidos"
-                    placeholder="Introduce tus apellidos">
-            </div>
-
-            <div class="mb-1">
-                <label for="email" class="form-label">Correo electrónico <span class="text-danger">*</span><sub>
-                        (Obligatorio)</sub></label>
-                <input type="email" class="form-control input-style" id="email" placeholder="correo@ejemplo.com"
-                    required>
-            </div>
-
-            <div class="mb-1">
-                <label for="motivo" class="form-label">Motivo de contacto <span class="text-danger">*</span><sub>
-                        (Obligatorio)</sub></label>
-                <select class="form-select input-style" id="motivo" aria-labelledby="motivo-label" required>
-                    <option value="" selected disabled aria-disabled="true">Selecciona una opcion</option>
-                    <option value="consulta">Consulta</option>
-                    <option value="proyecto">Proyecto</option>
-                    <option value="otro">Otro</option>
-                </select>
-            </div>
-
-            <div class="mb-1">
-                <label class="form-label">Preferencia de contacto <span class="text-danger">*</span><sub>
-                        (Obligatorio)</sub></label>
-                <div>
-                    <input type="radio" id="pref-email" name="preferencia" value="email" required>
-                    <label for="pref-email">Correo electrónico</label>
-                </div>
-                <div>
-                    <input type="radio" id="pref-telefono" name="preferencia" value="telefono">
-                    <label for="pref-telefono">Teléfono</label>
-                </div>
-            </div>
-
-            <div class="mb-1">
-                <label for="mensaje" class="form-label">Mensaje <span class="text-danger">*</span><sub>
-                        (Obligatorio)</sub></label>
-                <textarea class="form-control input-style" id="mensaje" rows="6" maxlength="500"
-                    placeholder="¡Escríbeme un mensaje! Máximo 500 caracteres..." style="resize: none;"
-                    required></textarea>
-            </div>
-
-            <div class="mb-1">
-                <div>
-                    <input type="checkbox" id="actualizaciones" name="actualizaciones" value="si"
-                        aria-label="Marca esta opción para recibir actualizaciones sobre nuevos proyectos o servicios.">
-                    <label for="actualizaciones">Recibir actualizaciones sobre nuevos proyectos o servicios.</label>
+     <!-- Seccion Contacto--> 
+    <section id="CONTACTO" class="">
+        <div class="container d-flex justify-content-center align-items-center flex-column" style="min-height: 100vh">
+            <h1 class="text-center mb-3 fontSecondary">CONTACTO</h1>
+            <div class="row justify-content-center h-100 w-75">
+                <div class="col-12">
+                    <div class="card  shadow border-2">
+                        <div class="card-body">
+                            <form aria-labelledby="descForm">
+                                <legend id="descForm" class="visually-hidden">Deje sus datos de contacto</legend>
+                                <div class="form-group">
+                                    <label for="nombre" class="">Nombre *</label>
+                                    <input type="text" class="form-control mt-1 mb-1" id="nombre" placeholder="Ingrese su nombre">
+                                </div>
+                                <div class="form-group">
+                                    <label for="primer_apellido" class="">Primer Apellido *</label>
+                                    <input type="text" class="form-control mt-1 mb-1" id="primer_apellido" placeholder="Ingrese su apellido">
+                                </div>
+                                <div class="form-group">
+                                    <label for="segundo_apellido" class="">Segundo Apellido</label>
+                                    <input type="text" class="form-control mt-1 mb-1 text-danger" id="segundo_apellido" placeholder="Ingrese su segundo apellido">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="">Correo electrónico *</label>
+                                    <input type="email" class="form-control mt-1 mb-1" id="email" placeholder="Ingrese su correo electrónico">
+                                </div>
+                                <div class="">
+                                    <label for="nivelIngles">Nivel Ingles</label>
+                                    <select id="nivelIngles" class="form-select mt-1 mb-1">
+                                      <option>Nivel Basico</option>
+                                      <option>Nivel Medio</option>
+                                      <option>Nivel Avanzado</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="mensaje" class="">Como nos conociste</label>
+                                    <textarea class="form-control mt-1 mb-1" id="mensaje" rows="3" placeholder="Describa brevemente lo que necesita"></textarea>
+                                </div>
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Acepto los <a href="terminos.html">términos y condiciones</a
+                                    </label>
+                                </div>
+                                <button type="submit" aria-label="Enviar Formulario" class="btn btn-primary mt-4 mx-auto border-3 shadow" id="botonEnviar">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="mt-3">
-                <input type="submit" class="form-control submit" id="enviar" value="Enviar"
-                    aria-label="Enviar el formulario">
-            </div>
-            <div class="mt-3 mb-5">
-                <input type="reset" class="form-control submit" id="enviar" value="Cancelar"
-                    aria-label="Cancelar el envió del formulario">
-            </div>
-
-        </form>
-    </div>
-
-    <footer class="container-fluid mt-6 bg-success">
-        <div class="footer-container container-fluid mt-5">
-            <div class="footer-column">
-                <h3>Academia de Inglés</h3>
-                <p>Calle de ejemplo, 123, Ciudad, País</p>
-                <p>Teléfono: +34 123 456 789</p>
-                <p>Email: info@academiadeingles.com</p>
-            </div>
-            <!--<div class="footer-column">
-                <h3>Enlaces útiles</h3>
-                <ul>
-                    <li><a href="#">Cursos</a></li>
-                    <li><a href="#">Profesores</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h3>Síguenos</h3>
-                <a href="https://www.facebook.com/academiadeingles">Facebook</a>
-                <a href="https://www.twitter.com/academiadeingles">Twitter</a>
-                <a href="https://www.instagram.com/academiadeingles">Instagram</a>
-            </div>-->
+    <footer class="container-fluid mt-5 bg-success">
+        <div class="d-flex justify-content-start">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-success"><a href="">Aprende a Hablar</a></li>
+                <li class="list-group-item bg-success"><a href="">Terminos y condiciones</a></li>
+                <li class="list-group-item bg-success"><a href="">Atribuciones</a></li>
+            </ul>
+        </div>
+        <div class="d-flex justify-content-end">
+            <img src="assets/img/licencia.png" alt="" width="150px">
         </div>
     </footer>
 
