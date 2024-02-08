@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top bg-success mb-5">
+        <nav class="navbar navbar-expand-lg fixed-top bg-primary mb-5">
             <div class="container">
                 <a class="navbar-brand " href="index.html">
                     <img src="assets/svg/logo_original.svg" alt="">
@@ -40,17 +40,47 @@
         </nav>
     </header>
 
+    <div class="container-fluid banner">
+        <div class="row-12 mb-2">
+            <div class="col">
+                <img src="assets/img/banner.png" alt="Banner" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <section >
+        <div class="container">
+            <div class="row row-cols-md-2 row-cols-sm-1">
+                <div class="col-md-6 col-sm-12"><video src="assets/video/aah.mp4" class="object-fit-scale" controls width="600px"></video></div>
+                <div class="col-md-6 col-sm-12"> <p>¡Bienvenido a Aprende a Hablar, tu puerta de entrada al fascinante mundo del inglés! En nuestra
+                    academia, nos apasiona la enseñanza de este idioma universal y nos comprometemos a brindarte una
+                    experiencia de aprendizaje única y efectiva. Con cursos diseñados para todos los niveles, desde
+                    principiantes hasta avanzados, estamos aquí para acompañarte en cada paso de tu viaje hacia la
+                    fluidez en inglés.</p>
+                <hr class="my-4">
+                <p>En Aprende a Hablar, no solo te ofrecemos clases, sino una comunidad de aprendices apasionados y
+                    profesionales dedicados a potenciar tus habilidades lingüísticas. Nuestro enfoque se centra en
+                    la comunicación práctica, con lecciones dinámicas que te sumergirán en situaciones reales,
+                    permitiéndote desenvolverte con confianza en cualquier entorno de habla inglesa.</p>
+                <hr class="my-4">
+                <p>Explora nuestro catálogo de cursos diseñados por expertos, desde gramática hasta conversación
+                    cotidiana, y descubre cómo cada lección te acerca un paso más a la fluidez. Únete a nosotros en
+                    Aprende a Hablar, donde el inglés se convierte en una habilidad que dominarás con facilidad y
+                    disfrute. ¡Comencemos juntos este emocionante viaje hacia un nuevo mundo de posibilidades!</p></div>
+            </div>
+        </div>
+    </section>
 
+
+    <!-- 
     <section id="introduccion" class="container bg-light">
         <div class="container mt-6">
             <div class="row m-auto">
                 <div class="col-lg-6 col-md-12 d-lg-flex flex-lg-column">
-                    <div class="col">
+                    <div class="row">
                         <img src="assets/img/banner.png" alt="Banner" class="img-fluid">
                     </div>
 
                     <div class="row m-auto w-100 mt-2 mb-2">
-                        <!--<iframe width="590" height="400" src="https://www.youtube.com/embed/h_D3VFfhvs4" title="Michael Jackson - Smooth Criminal (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="mt-3"></iframe>-->
                         <video src="assets/video/aah.mp4" class="object-fit-scale" controls></video>
                     </div>
                 </div>
@@ -78,7 +108,7 @@
 
         </div>
     </section>
-
+    -->
     <section id="profesores" class="container">
         <h2 class="text-center mb-4 mt-5">Nuestros Profesores</h2>
         <div class="row row-cols-2">
@@ -123,76 +153,93 @@
         </div>
     </section>
 
+   
 
-    <section id="precios" class="container mb-5 mt-5">
-        <div class="row mt-5 mb-5">
-            <h1 class="text-center mb-4 mt-5">Planes Subscripcion</h1>
-            <!-- Tarjeta: Plan Gratuito -->
+    <!-- Seccion precios -->
+    <div class="pricing5 mb-5">
+        <h1 class="text-center text-dark mb-2">Precios</h1>
+        <div class="container">
+          <div class="row text-center">
+
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header bg-light">
-                        <h2 class="card-title text-center">Plan Gratuito</h2>
-                    </div>
-                    <div class="card-body m-auto">
-                        <p class="card-text">Para uso personal</p>
-                        <p class="card-text">$0</p>
-                        <ul class="list-unstyled">
-                            <li>1 usuario</li>
-                            <li>4 correos electrónicos</li>
-                            <li>Sitio web receptivo</li>
-                            <li>SSL gratuito</li>
-                        </ul>
-                        <a href="#" class="btn btn-primary">Suscríbete ahora</a>
-                    </div>
+              <div class="card card-shadow border-1">
+                <div class="card-body">
+                  <h4 class="text-dark mt-3 mb-0">Iniciacion</h4>
+                  <h2 class="mb-4" style="color:rgb(2, 179, 2);">Gratuito</h2>
+                  <ul class="list-group">
+                    <li class="py-3 d-block">
+                      <h5 class="font-weight-normal">1 Video</h5>
+                      <h6 class="subtitle font-weight-normal">Video introductorio</h6>
+                    </li>
+                    <li class="py-3 d-block">
+                      <h5 class="font-weight-normal">1 Examen</h5>
+                      <h6 class="subtitle font-weight-normal">Examen prueba nivel</h6>
+                    </li>
+                    <li class="py-3 d-block">
+                      <h5 class="font-weight-normal">1 Clase grupal</h5>
+                      <h6 class="subtitle font-weight-normal">Clase grupal online</h6>
+                    </li>
+                  </ul>
+                  <a class="btn btn-outline-success btn-md rounded-pill mb-3" href="#f1"><span>CONTRATAR</span></a>
                 </div>
+              </div>
             </div>
 
-            <!-- Tarjeta: Plan Básico -->
             <div class="col-md-4">
-                <div class="card bg-success text-light">
-                    <div class="card-header bg-primary text-white">
-                        <h2 class="card-title text-center">Plan Básico</h>
-                    </div>
-                    <div class="card-body m-auto">
-                        <p class="card-text">Para pequeñas empresas</p>
-                        <p class="card-text">$29</p>
-                        <ul class="list-unstyled">
-                            <li>4 usuarios</li>
-                            <li>10 correos electrónicos</li>
-                            <li>Sitio web receptivo</li>
-                            <li>SSL gratuito</li>
-                        </ul>
-                        <a href="#" class="btn btn-primary">Suscríbete ahora</a>
-                    </div>
+              <div class="card shadow border-2 border-primary">
+                <div class="card-body">
+                    <h4 class="text-dark mt-3 mb-0">Pack Premium</h4>
+                    <h2 class="text-dark mt-0 mb-4">10,99€</h2>
+                  <ul class="list-group">
+                    <li class="py-3 d-block">
+                      <h5 class="font-weight-normal">Videos nivel a1 - b2</h5>
+                      <h6 class="subtitle font-weight-normal">Videos enseñanza nivel a1 - b1</h6>
+                    </li>
+                    <li class="py-3 d-block">
+                      <h5 class="font-weight-normal">Examenes hasta b2</h5>
+                      <h6 class="subtitle font-weight-normal">Examenes evalucion conocimiento a1 - b2</h6>
+                    </li>
+                    <li class="py-3 d-block ">
+                      <h5 class="font-weight-normal">Clases grupales</h5>
+                      <h6 class="subtitle font-weight-normal">Clases grupales de tu mismo nivel</h6>
+                    </li>
+                  </ul>
+                  <a class="btn btn-success-gradiant btn-md text-white rounded-pill mb-3" href="#f1"><span>CONTRATAR</span></a>
                 </div>
+              </div>
             </div>
 
-            <!-- Tarjeta: Plan Pro -->
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header bg-light text-dark">
-                        <h2 class="card-title text-center">Plan Pro</h2>
-                    </div>
-                    <div class="card-body m-auto">
-                        <p class="card-text">Para empresas grandes</p>
-                        <p class="card-text">$49</p>
-                        <ul class="list-unstyled">
-                            <li>Usuarios ilimitados</li>
-                            <li>Correos electrónicos ilimitados</li>
-                            <li>Sitio web receptivo</li>
-                            <li>SSL gratuito + SEO</li>
-                        </ul>
-                        <a href="#" class="btn btn-primary">Suscríbete ahora</a>
-                    </div>
+              <div class="card card-shadow border-1">
+                <div class="card-body">
+                  <h4 class="text-dark mt-3 mb-0">Pack Premium+</h4>
+                  <h2 class="text-dark mt-0 mb-4">16,99€</h2>
+                  <ul class="list-group">
+                    <li class="py-3 d-block">
+                      <h5 class="font-weight-normal">Acceso a todos los videos</h5>
+                      <h6 class="subtitle font-weight-normal">Acceso total a todos los videos</h6>
+                    </li>
+                    <li class="d-block py-3">
+                      <h5 class="font-weight-normal">Examenes c2</h5>
+                      <h6 class="subtitle font-weight-normal">Examenes hasta nivel c2/h6>
+                    </li>
+                    <li class="d-block py-3">
+                      <h5 class="font-weight-normal">Clases grupales e individuales</h5>
+                      <h6 class="subtitle font-weight-normal">Incluie clases particulares</h6>
+                    </li>
+                  </ul>
+                  <a class="btn btn-outline-success btn-md rounded-pill mb-3" href="#f1"><span>CONTRATAR</span></a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-    
+      </div>
+
      <!-- Seccion Contacto--> 
     <section id="CONTACTO" class="">
         <div class="container d-flex justify-content-center align-items-center flex-column" style="min-height: 100vh">
-            <h1 class="text-center mb-3 fontSecondary">CONTACTO</h1>
+            <h1 class="text-center mb-3 fontSecondary">Contacto</h1>
             <div class="row justify-content-center h-75 w-75">
                 <div class="col-12">
                     <div class="card  shadow border-2">
@@ -233,7 +280,7 @@
                                         Acepto los <a href="terminos.html">términos y condiciones</a
                                     </label>
                                 </div>
-                                <button type="submit" aria-label="Enviar Formulario" class="btn btn-primary mt-4 mx-auto border-3 shadow" id="botonEnviar">Enviar</button>
+                                <button type="submit" aria-label="Enviar Formulario" class="btn btn-primary mt-4 mx-auto border-1 border-success shadow rounded-pill " id="botonEnviar">Enviar</button>
                             </form>
                         </div>
                     </div>
@@ -242,16 +289,18 @@
         </div>
     </section>
 
-    <footer class="container-fluid mt-5 bg-success">
-        <div class="d-flex justify-content-start">
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item bg-success"><a href="" class="foot">Aprende a Hablar</a></li>
-                <li class="list-group-item bg-success"><a href="" class="foot">Terminos y condiciones</a></li>
-                <li class="list-group-item bg-success"><a href="" class="foot">Atribuciones</a></li>
-            </ul>
-        </div>
-        <div class="d-flex justify-content-end">
-            <img src="assets/img/licencia.png" alt="" width="150px">
+    <footer class="footer mt-5 bg-secondary">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start">
+                    <a class="link-primary text-decoration-none text-light me-3" href="#!">Terminos y condiciones</a>
+                    <a class="link-primary text-decoration-none text-light" href="#!">Atribuciones</a>
+                </div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    
+                </div>
+                <div class="col-lg-4 text-lg-end"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="assets/img/licencia.png" alt="" width="100px"></a></div>
+            </div>
         </div>
     </footer>
 
