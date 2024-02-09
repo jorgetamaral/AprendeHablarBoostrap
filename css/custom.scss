@@ -1,10 +1,11 @@
 $success: #cc213dd8; // Color utilizado para en navbar y footes
 
-$primary: #849edb; //Color utilizado para los botones 
+$primary: #2f4c8f; //Color utilizado para los botones 
 
 $secondary: #39333A; //Color mayoritariamente utilizado para el texto
 
 $info: #FFFFFF; //Color utilizado para el texto que se encuentra sobre colores
+
 
 
 nav img {
@@ -165,6 +166,15 @@ nav span {
 .my-link:hover {
   color: #b0b6c0 !important;
   /* Cambia esto al color que prefieras */
+}
+
+.link-footer {
+  font-weight: 720;
+  text-decoration: none;
+}
+
+.link-footer:hover {
+  color: #b0b6c0 !important;
 }
 
 @import "scss/bootstrap.scss";
