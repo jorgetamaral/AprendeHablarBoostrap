@@ -6,7 +6,12 @@ $secondary: #39333A; //Color mayoritariamente utilizado para el texto
 
 $info: #FFFFFF; //Color utilizado para el texto que se encuentra sobre colores
 
-
+.micolor {
+  background: #2F4C8F;
+  background: linear-gradient(to right, #2F4C8F 0%, #CBD2E3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 nav img {
   background-color: white;
