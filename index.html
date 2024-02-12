@@ -5,7 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aprende A Hablar</title>
-  <!-- No funciona el favicon -->
   <link rel="icon" type="image/x-icon" href="/assets/img/logo2_favicon.ico" />
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/style.css" />
@@ -40,7 +39,7 @@
 
   <div class="text-center mb-3">
     <!-- <img src="assets/img/banner.png" alt="Banner" /> -->
-    <h1 class="micolor mb-5 mt-5 fontTitulos">
+    <h1 class="text-primary mb-5 mt-5 fontTitulos">
       ¡ Aprende A Hablar mientras te diviertes !
     </h1>
   </div>
@@ -177,15 +176,15 @@
         <div class="col-md-4">
           <div class="card card-shadow border-1 mb-4">
             <div class="card-body">
-              <h4 class="text-dark mt-3 mb-0">Iniciacion</h4>
+              <h4 class="text-dark mt-3 mb-0">Iniciación</h4>
               <h2 class="mb-4 text-primary">
                 Gratuito
               </h2>
               <ul class="list-group">
                 <li class="py-3 d-block">
-                  <h5 class="font-weight-normal">1 Video</h5>
+                  <h5 class="font-weight-normal">1 Vídeo</h5>
                   <h6 class="subtitle font-weight-normal">
-                    Video introductorio
+                    Vídeo introductorio
                   </h6>
                 </li>
                 <li class="py-3 d-block">
@@ -215,15 +214,15 @@
               <h2 class="text-dark mt-0 mb-4">9,99€</h2>
               <ul class="list-group">
                 <li class="py-3 d-block">
-                  <h5 class="font-weight-normal">Videos nivel A1 - B1</h5>
+                  <h5 class="font-weight-normal">Vídeos nivel A1 - B1</h5>
                   <h6 class="subtitle font-weight-normal">
-                    Videos enseñanza nivel A1 - B1
+                    Vídeos enseñanza nivel A1 - B1
                   </h6>
                 </li>
                 <li class="py-3 d-block">
-                  <h5 class="font-weight-normal">Examenes hasta B1</h5>
+                  <h5 class="font-weight-normal">Exámenes hasta B1</h5>
                   <h6 class="subtitle font-weight-normal">
-                    Examenes evalucion conocimiento A1 - B1
+                    Exámenes evalución conocimiento A1 - B1
                   </h6>
                 </li>
                 <li class="py-3 d-block">
@@ -247,16 +246,16 @@
               <ul class="list-group">
                 <li class="py-3 d-block">
                   <h5 class="font-weight-normal">
-                    Acceso a todos los videos
+                    Acceso a todos los vídeos
                   </h5>
                   <h6 class="subtitle font-weight-normal">
-                    Acceso total a todos los videos
+                    Acceso total a todos los vídeos
                   </h6>
                 </li>
                 <li class="d-block py-3">
                   <h5 class="font-weight-normal">Examenes C2</h5>
                   <h6 class="subtitle font-weight-normal">
-                    Examenes hasta nivel C2
+                    Exámenes hasta nivel C2
                   </h6>
                 </li>
                 <li class="d-block py-3">
@@ -290,25 +289,25 @@
                   Deje sus datos de contacto
                 </legend>
                 <div class="form-group">
-                  <label for="nombre" class="">Nombre *</label>
-                  <input type="text" class="form-control mt-2 mb-2" id="nombre" placeholder="Ingrese su nombre" />
+                  <label for="nombre" class="">Nombre <span class="text-success">*</span></label>
+                  <input type="text" class="form-control mt-2 mb-2" id="nombre" placeholder="Ingrese su nombre" required/>
                 </div>
                 <div class="form-group">
-                  <label for="primer_apellido" class="">Primer Apellido *</label>
+                  <label for="primer_apellido" class="">Primer Apellido <span class="text-success">*</span></label>
                   <input type="text" class="form-control mt-2 mb-2" id="primer_apellido"
-                    placeholder="Ingrese su apellido" />
+                    placeholder="Ingrese su apellido" required />
                 </div>
                 <div class="form-group">
                   <label for="segundo_apellido" class="">Segundo Apellido</label>
                   <input type="text" class="form-control mt-2 mb-2 text-danger" id="segundo_apellido"
-                    placeholder="Ingrese su segundo apellido" />
+                    placeholder="Ingrese su segundo apellido"/>
                 </div>
                 <div class="form-group">
-                  <label for="email" class="">Correo electrónico *</label>
+                  <label for="email" class="">Correo electrónico <span class="text-success">*</span></label>
                   <input type="email" class="form-control mt-2 mb-2" id="email"
-                    placeholder="Ingrese su correo electrónico" />
+                    placeholder="Ingrese su correo electrónico" required />
                 </div>
-                <label for="option1">Nivel de ingles</label>
+                <label for="option1">Nivel de inglés</label>
                 <div class=" d-flex flex-column flex-md-row">
                   <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
                   <label class="btn btn-outline-primary me-2 mt-2" for="option1">Nivel Básico</label>
@@ -343,16 +342,15 @@
   <footer class="footer mt-5 bg-secondary fontTitulos">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-4 col-12 text-start">
-          <a class="link-footer text-light me-md-3" href="terminos_condiciones.html">Terminos y condiciones</a>
+        <div class="col-lg-4 col-md-6 col-12 text-start">
+          <a class="link-footer text-light me-md-3" href="terminos_condiciones.html">Términos y condiciones</a>
           <a class="link-footer text-light mx-3" href="atribuciones.html">Atribuciones</a>
         </div>
-        <div class="col-lg-4 col-12 my-md-3 my-md-0 mt-2"></div>
-        <div class="col-lg-4 col-12 text-md-end">
-          <li>
-            Aprende a Hablar está bajo licencia: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" class=" text-light"> CC-BY-NC-SA  4.0</a> 
-          </li>
-          
+        <div class="col-lg-4 col-md-6 col-12 my-md-3 my-md-0 mt-2"></div>
+        <div class="col-lg-4 col-md-12 col-12 text-md-end text-start mt-md-0 mt-3">
+          <span>
+            Aprende a Hablar está bajo licencia: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" class="text-light"> <span class="my-link">CC-BY-NC-SA  4.0</span></a> 
+          </span>
         </div>
       </div>
     </div>

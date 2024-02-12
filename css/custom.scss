@@ -19,15 +19,16 @@ label,
 input {
   font-family: "Montserrat", sans-serif;
 }
+
 .object-fit-scale {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
-:root
-{
-  scrollbar-color: $primary  $info ; 
-  scrollbar-width: thin ;
+
+:root {
+  scrollbar-color: $primary $info ;
+  scrollbar-width: thin;
 }
 
 .link-footer {
@@ -42,10 +43,11 @@ input {
 }
 
 .micolor {
-  background: #2F4C8F;
-  background: linear-gradient(to right, #2F4C8F 0%, #CBD2E3 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  // background: #2F4C8F;
+  // background: linear-gradient(to right, #2F4C8F 0%, #CBD2E3 100%);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  color: $primary;
 }
 
 nav img {
