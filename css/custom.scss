@@ -6,6 +6,31 @@ $secondary: #39333A; //Color mayoritariamente utilizado para el texto
 
 $info: #FFFFFF; //Color utilizado para el texto que se encuentra sobre colores
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.fontTitulos {
+  font-family: 'Roboto', sans-serif;
+}
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+
+p,
+label,
+input {
+  font-family: "Montserrat", sans-serif;
+}
+
+.link-footer {
+  font-weight: 720;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.link-footer:hover {
+  color: #b0b6c0 !important;
+  font-family: "Montserrat", sans-serif;
+}
+
 .micolor {
   background: #2F4C8F;
   background: linear-gradient(to right, #2F4C8F 0%, #CBD2E3 100%);
@@ -173,13 +198,6 @@ nav span {
   /* Cambia esto al color que prefieras */
 }
 
-.link-footer {
-  font-weight: 720;
-  text-decoration: none;
-}
 
-.link-footer:hover {
-  color: #b0b6c0 !important;
-}
 
 @import "scss/bootstrap.scss";
