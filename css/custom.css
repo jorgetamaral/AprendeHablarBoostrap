@@ -12,6 +12,12 @@ input {
   font-family: "Montserrat", sans-serif;
 }
 
+.object-fit-scale {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 :root {
   scrollbar-color: #2f4c8f #FFFFFF;
   scrollbar-width: thin;
