@@ -35,10 +35,7 @@ input {
 }
 
 .micolor {
-  background: #2F4C8F;
-  background: linear-gradient(to right, #2F4C8F 0%, #CBD2E3 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #2f4c8f;
 }
 
 nav img {
