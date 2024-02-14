@@ -12,6 +12,14 @@ input {
   font-family: "Montserrat", sans-serif;
 }
 
+.fixed-bottom {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 60px;
+  width: 100%;
+}
+
 .object-fit-scale {
   width: 100%;
   height: auto;
